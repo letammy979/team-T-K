@@ -1,0 +1,20 @@
+body {
+  display : grid;
+  grid-template-areas: 
+    "brush photo photo photo"
+    "brush photo photo photo" 
+    "col   col   col   undo" ;
+  width: 400px;
+  height: 250px;
+}
+
+h1 {
+  grid-area : photo;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#button {
+  grid-area : undo;
+  background-color: pink;
+ 
+}
